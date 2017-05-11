@@ -7,16 +7,20 @@ $left: 10%;
 $top: $height+5px;
 
 /* Ab hier deine Regeln :-) */
+body {
+  margin: 0;
+  padding: 0; 
+}
+
 div {
   background-color: black;
-  position: absolute; 
+  position: absolute;
 }
 
 .eins {
   width: $width;
   height: $height;
   left: $left;
-  margin-bottom: 5px;
 }
 
 .zwei {
