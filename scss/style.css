@@ -1,62 +1,56 @@
+@charset "UTF-8";
 /* Diese Regel nicht verändern! */
-
-
 /* Deine Parameter: */
-$width: 100px;
-$height: 50px;
-$left: 10%;
-$top: $height+5px;
-
 /* Ab hier deine Regeln :-) */
 div {
   background-color: black;
-  position: absolute; 
+  position: absolute;
 }
 
 .eins {
-  width: $width;
-  height: $height;
-  left: $left;
+  width: 100px;
+  height: 50px;
+  left: 10%;
 }
 
 .zwei {
-  width: $width;
-  height: $height;
-  left: $left*2;
-  top: $top;
+  width: 100px;
+  height: 50px;
+  left: 20%;
+  top: 55px;
 }
 
 .drei {
-   width: $width;
-  height: $height;
-  left: $left*3;
-  top: $top*2;
+  width: 100px;
+  height: 50px;
+  left: 30%;
+  top: 110px;
 }
 
 .vier {
-  width: $width;
-  height: $height;
-  left: $left*4;
-  top: $top*3;
+  width: 100px;
+  height: 50px;
+  left: 40%;
+  top: 165px;
 }
 
 .fuenf {
-  width: $width;
-  height: $height;
-  left: $left*5;
-  top: $top*4;
+  width: 100px;
+  height: 50px;
+  left: 50%;
+  top: 220px;
 }
 
 .sechs {
-  width: $width;
-  height: $height;
-  left: $left*6;
-  top: $top*5;
+  width: 100px;
+  height: 50px;
+  left: 60%;
+  top: 275px;
 }
 
 .sieben {
-  width: $width;
-  height: $height;
-  left: $left*7;
-  top: $top*6;
+  width: 100px;
+  height: 50px;
+  left: 70%;
+  top: 330px;
 }

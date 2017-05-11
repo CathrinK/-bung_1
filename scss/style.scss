@@ -1,0 +1,61 @@
+/* Diese Regel nicht verändern! */
+
+/* Deine Parameter: */
+$width: 100px;
+$height: 50px;
+$left: 10%;
+$top: $height+5px;
+
+/* Ab hier deine Regeln :-) */
+div {
+  background-color: black;
+  position: absolute; 
+}
+
+.eins {
+  width: $width;
+  height: $height;
+  left: $left;
+}
+
+.zwei {
+  width: $width;
+  height: $height;
+  left: $left*2;
+  top: $top;
+}
+
+.drei {
+  width: $width;
+  height: $height;
+  left: $left*3;
+  top: $top*2;
+}
+
+.vier {
+  width: $width;
+  height: $height;
+  left: $left*4;
+  top: $top*3;
+}
+
+.fuenf {
+  width: $width;
+  height: $height;
+  left: $left*5;
+  top: $top*4;
+}
+
+.sechs {
+  width: $width;
+  height: $height;
+  left: $left*6;
+  top: $top*5;
+}
+
+.sieben {
+  width: $width;
+  height: $height;
+  left: $left*7;
+  top: $top*6;
+}
